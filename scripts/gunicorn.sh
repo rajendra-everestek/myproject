@@ -3,10 +3,8 @@ sudo cp /var/lib/jenkins/workspace/My-Project/gunicorn/gunicorn.service /etc/sys
 
 sudo systemctl daemon-reload
 
-sudo systemctl enable gunicorn.socket
 sudo systemctl start gunicorn.socket
 sudo systemctl enable gunicorn.socket
 
-sudo systemctl enable gunicorn.service
 sudo systemctl start gunicorn.service
 sudo systemctl enable gunicorn.service

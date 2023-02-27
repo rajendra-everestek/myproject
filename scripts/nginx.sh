@@ -1,4 +1,5 @@
 sudo rm -rf /etc/nginx/sites-enabled/myproject
+sudo rm -rf /etc/nginx/sites-available/myproject
 
 sudo cp -rf /var/lib/jenkins/workspace/My-Project/nginx/nginx.conf /etc/nginx/sites-available/myproject
 
