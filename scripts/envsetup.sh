@@ -14,6 +14,8 @@ pip install gunicorn
 
 cd myproject
 
+mkdir ./static
+
 sudo service nginx stop
 
 sudo service nginx start
