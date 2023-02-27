@@ -1,3 +1,5 @@
+sudo rm -rf /etc/nginx/sites-enabled/myproject
+
 sudo cp -rf /var/lib/jenkins/workspace/My-Project/myproject/nginx/nginx.conf /etc/nginx/sites-available/djangojenkin
 
 sudo ln -s /etc/nginx/sites-available/myproject

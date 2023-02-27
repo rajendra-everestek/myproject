@@ -1,5 +1,5 @@
-sudo cp /var/lib/jenkins/workspace/My-Project/myproject/gunicorn/gunicorn.socket /etc/systemd/system/gunicorn.socket
-sudo cp /var/lib/jenkins/workspace/My-Project/myproject/gunicorn/gunicorn.service /etc/systemd/system/gunicorn.service
+sudo cp /var/lib/jenkins/workspace/My-Project/gunicorn/gunicorn.socket /etc/systemd/system/gunicorn.socket
+sudo cp /var/lib/jenkins/workspace/My-Project/gunicorn/gunicorn.service /etc/systemd/system/gunicorn.service
 
 sudo systemctl daemon-reload
 
