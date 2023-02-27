@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.http import HttpResponse
+
+def test(request):
+    return HttpResponse("Hi rajendra", content_type='text/plain')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('rajendra/', test, name='index'),
 ]
