@@ -11,3 +11,10 @@ source /var/lib/jenkins/workspace/django_env/bin/activate
 pip install django
 
 pip install gunicorn
+
+cd myproject
+
+sudo service nginx stop
+
+sudo service nginx start
+
