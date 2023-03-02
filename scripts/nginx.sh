@@ -5,5 +5,4 @@ sudo cp -rf /var/lib/jenkins/workspace/My-Project/nginx/nginx.conf /etc/nginx/si
 
 sudo ln -s /etc/nginx/sites-available/myproject /etc/nginx/sites-enabled
 
-
 sudo systemctl restart nginx
